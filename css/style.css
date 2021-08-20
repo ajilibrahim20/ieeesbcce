@@ -144,6 +144,22 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .section-title p {
 	font-size: 18px;
 }
+.whyieee {
+	float: left;
+	width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .hahaha:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  @media screen and (max-width: 600px) {
+	.whyieee {
+	  width: 100%;
+	}
+  }
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
