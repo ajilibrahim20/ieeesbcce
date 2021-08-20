@@ -38,7 +38,7 @@ p.intro {
 	line-height: 24px;
 }
 a {
-	color: #333;
+	color: #F0FFF0;
 	font-weight: 400;
 }
 a:hover, a:focus {
@@ -75,7 +75,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #a7c44c;
+	background: #1E90FF;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	border: 0;
@@ -96,8 +96,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
-	border-color: rgba(231, 231, 231, 0);
+	background-color: #FFFAF0;
+	border-color: #F0FFF0;
 }
 #menu a.navbar-brand {
 	font-size: 22px;
@@ -108,7 +108,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: #a7c44c;
+	color: #1E90FF;
 	font-weight: 400;
 	font-size: 15px;
 	padding: 5px 0;
@@ -117,10 +117,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin: 10px 15px 0 15px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #eee;
+	color:#1E90FF ;
 }
 .on {
-	background-color: #363636 !important;
+	background-color: #FFFAF0!important;
 	padding: 0 !important;
 	padding: 10px 0 !important;
 }
@@ -132,8 +132,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #a7c44c;
-	border-color: #a7c44c;
+	background-color: #1E90FF;
+	border-color: #1E90FF;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
@@ -163,8 +163,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
-	text-shadow: 0 0 3px #859c3c;
-	background-color: #a7c44c;
+	text-shadow: 0 0 3px #1E90FF;
+	background-color: #1E90FF;
 	border: 0;
 	padding: 14px 20px;
 	margin: 0;
@@ -175,7 +175,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: rgba(255,255,255,0.8);
-	background-color: #94ae44;
+	background-color: #1E90FF;
 }
 /* Header Section */
 .intro {
@@ -201,7 +201,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	letter-spacing: -1px;
 }
 .intro span {
-	color: #a7c44c;
+	color: #1E90FF;
 	font-weight: 600;
 }
 .intro p {
@@ -271,7 +271,7 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	color: #a7c44c;
+	color: #1E90FF;
 	font-weight: 400;
 	font-size: 15px;
 	padding: 10px 20px;
@@ -325,16 +325,18 @@ ol.type li a:hover {
 .portfolio-item .hover-bg {
 	overflow: hidden;
 	position: relative;
+	border-color: #FFFAF0;
 }
 .portfolio-item img {
 	border-radius: 0 50px 0 50px;
+	border-color: #FFFAF0;
 }
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
 	color: #333;
-	background: rgba(255, 255, 255, 0.75);
+	background:  #FFFAF0;;
 	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
@@ -363,12 +365,12 @@ ol.type li a:hover {
 /* Team Section */
 #team {
 	color: #fff;
-	background: #a7c44c url(../img/team-bg.jpg) center top no-repeat;
+	background: #1E90FF url(../img/team-bg.jpg) center top no-repeat;
 	background-size: cover;
 }
 #team .overlay {
 	padding: 120px 0;
-	background: rgba(167, 196, 76, 0.9);
+	background: #1E90FF;
 }
 #team h2, #team p {
 	color: #fff;
@@ -386,7 +388,7 @@ ol.type li a:hover {
 	width: 200px;
 	height: 200px;
 	border-radius: 50px 0 50px 0;
-	box-shadow: 15px 0 #96b044;
+	box-shadow: 15px 0 #FFFAF0;
 }
 #team .thumbnail {
 	background: transparent;
@@ -396,7 +398,7 @@ ol.type li a:hover {
 	padding-top: 10px;
 }
 #team .thumbnail .caption p {
-	color: #fff;
+	color:  #FFFAF0;;
 }
 /* Contact Section */
 #contact {
@@ -472,7 +474,7 @@ color: #777;
 }
 /* Footer Section*/
 #footer {
-	background: #333;
+	background: #1E90FF;
 	padding: 50px 0 20px 0;
 }
 #footer .social {
@@ -485,7 +487,7 @@ color: #777;
 #footer .social i.fa {
 	font-size: 26px;
 	padding: 4px;
-	color: #a7c44c;
+	color: #F0FFF0;
 	transition: all 0.3s;
 }
 #footer .social i.fa:hover {
@@ -495,8 +497,8 @@ color: #777;
 	font-size: 15px;
 }
 #footer a {
-	color: #999;
+	color: #F0FFF0;
 }
 #footer a:hover {
-	color: #a7c44c;
+	color: #F0FFF0;
 }
