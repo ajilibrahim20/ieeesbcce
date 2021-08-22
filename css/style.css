@@ -502,3 +502,11 @@ color: #777;
 #footer a:hover {
 	color: #F0FFF0;
 }
+#about{
+	
+		background-image: url("../img/cover1.jpeg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	 
+}
