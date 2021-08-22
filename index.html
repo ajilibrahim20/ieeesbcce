@@ -24,6 +24,7 @@
 <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
 <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -62,7 +63,7 @@
       <div class="container">
         <div class="row">
           <div class="intro-text">
-            <h1><strong>IEEE SB CCE</strong> <span>-</span> Christ College of Engineering</h1>
+            <div data-aos="zoom-out-left" data-aos-duration="3000"><h1><strong>IEEE SB CCE</strong> <span>-</span> Christ College of Engineering</h1></div> 
             <p>Learn and Grow together..</p>
             <a href="#about" class="btn btn-custom btn-lg page-scroll">Read More</a> </div>
         </div>
@@ -70,8 +71,37 @@
     </div>
   </div>
 </header>
+<!-- News and Events -->
+<div id="about">
+  <div data-aos="fade-up"
+     data-aos-duration="2000">
+     
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>News and Events</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6 text-center"> <img src="img/about.jpeg" class="img-responsive" alt=""> </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="about-text">
+          <h3>About IEEE</h3>
+          <p>IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences, technology standards, and professional and educational activities.</p>
+          <h3>About IEEE SB CCE</h3>
+          <p>The Student Branch of CCE was formed in 2020 with the motto, "Integrating Innovations" aimed at imparting technical skillsets to the students and raising the standards of the activities towards the society we serve. Shri S Gopakumar, the Student's Activities Chairman and IEEE GOLD MEMBER Shri Vargheese Cherian took the initial steps to plant the roots of the World's largest technical and professional organization at FISAT.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+ <!-- News and Events end -->
 <!-- About Section -->
 <div id="about">
+  <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+
   <div class="container">
     <div class="section-title text-center center">
       <h2>About Us</h2>
@@ -90,8 +120,13 @@
     </div>
   </div>
 </div>
-<!-- Services Section -->
+</div>
+<!-- why IEEE -->
 <div id="services">
+  <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+
   <div class="container">
     <div class="col-md-10 col-md-offset-1 section-title text-center">
       <h2>Why IEEE?</h2>
@@ -118,8 +153,12 @@
     </div>
   </div>
 </div>
-<!-- Portfolio Section -->
+</div>
+<!-- PROJECTS -->
 <div id="portfolio">
+  <div data-aos="fade-up"
+  data-aos-duration="3000">
+
   <div class="container">
     <div class="section-title text-center center">
       <h2>Projects</h2>
@@ -241,9 +280,14 @@
     </div>
   </div>
 </div>
+</div>
 <!-- Team Section -->
 <div id="team" class="text-center">
   <div class="overlay">
+    <div data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
+
     <div class="container">
       <div class="col-md-8 col-md-offset-2 section-title">
         <h2>Meet the Team</h2>
@@ -317,12 +361,16 @@
         </div>
       </div>
     </div>
-    
+  </div>
   </div>
 </div>
 
 <!-- Contact Section -->
 <div id="contact">
+  <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  data-aos-duration="4000">
+
   <div class="container">
     <div class="section-title text-center">
       <h2>Contact Us</h2>
@@ -369,6 +417,7 @@
     </div>
   </div>
 </div>
+</div>
 <div id="footer">
   <div class="container text-center">
     <div class="social">
@@ -393,5 +442,9 @@
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="js/contact_me.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
