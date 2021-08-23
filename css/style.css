@@ -508,5 +508,38 @@ color: #777;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
-	 
+}
+.nav li ul{
+	display:none;
+	background-color:#FFFFFF;
+	text-align: left;
+	position:absolute;
+	font-size:13px;
+	font-weight: 400;
+	padding: 20px 10px;
+	border: 2px solid transparent;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #1E90FF;
+	margin: 0px 0px 0 0px;
+	width: 175px;
+
+}
+.nav li ul li{
+	padding: 10px 5px;
+}
+.nav li:hover > ul{
+	display:inline-block;
+
+} 
+.nav li ul li:hover{
+	background-color: #ffffff;
+	color:#91c0f0;
+}
+@media screen and (max-width: 770px){
+	.nav li ul{
+		position: relative;
+		padding: 0px 0px;
+		margin: 10px 15px 0 15px;
+	}
 }
