@@ -96,8 +96,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: #FFFAF0;
-	border-color: #F0FFF0;
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
 }
 #menu a.navbar-brand {
 	font-size: 22px;
