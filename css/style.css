@@ -525,14 +525,18 @@ color: #777;
 	width: 175px;
 
 }
+.nav li ul li a{
+	
+	color: #1E90FF;
+}
 .nav li ul li{
-	padding: 10px 5px;
+	margin: 10px 5px;
 }
 .nav li:hover > ul{
 	display:inline-block;
 
 } 
-.nav li ul li:hover{
+.nav li ul li a:hover{
 	background-color: #ffffff;
 	color:#91c0f0;
 }
