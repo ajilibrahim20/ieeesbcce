@@ -509,6 +509,9 @@ color: #777;
 		background-attachment: fixed;
 		background-size: cover;
 }
+nav{
+	width: 100vw;
+}
 .nav li ul{
 	display:none;
 	background-color:#FFFFFF;
